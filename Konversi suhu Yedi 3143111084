@@ -1,0 +1,20 @@
+#include <iostream.h>
+#include <conio.h>
+void main()
+{
+    float Celcius, Fahrenheit, Reamur;
+    cout<<"[[[[[[ Konversi Suhu Celcius ke Fahrenheit & Reamur ]]]]]\n\n";
+    cout<<"Masukan Suhu Celcius : ";
+    cin>>Celcius;
+    Fahrenheit= Celcius * 1.8 + 32;
+    Reamur=  0.8*Celcius;
+    cout<<"\n";
+    cout<<"Hasil Konversi\n\n";
+    cout<<"Fahrenheit    : "<<Fahrenheit<<"\n";
+    cout<<"Reamur        : "<<Reamur<<"\n";
+    cout<<"\n";
+    cout<<"Nama    : Yedi Day Alfill\n";
+    cout<<"No.Mhs  : 3143111084";
+    cout<<endl;
+    getch();
+}
