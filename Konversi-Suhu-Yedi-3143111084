@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+    float Celcius, Fahrenheit, Reamur;
+    printf("[[[[[[ Konversi Suhu Celcius ke Fahrenheit & Reamur ]]]]]\n\n");
+    printf("Masukan Suhu Celcius : ");
+    scanf("%f",&Celcius);
+    Fahrenheit= Celcius * 1.8 + 32;
+    Reamur=  0.8*Celcius;
+    printf("\n");
+    printf("Hasil Konversi\n\n");
+    printf("Fahrenheit    : %2.2f",Fahrenheit);
+    printf("\n");
+    printf("Reamur        : %2.2f",Reamur);
+    printf("\n\n");
+    printf("Nama    : Yedi Day Alfill\n");
+    printf("No.Mhs  : 3143111084");
+    printf("\n");
+    getch();
+}
